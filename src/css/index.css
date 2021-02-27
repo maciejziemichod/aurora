@@ -1,0 +1,14 @@
+/* reset */
+@import "./reset.css";
+
+/* variables */
+@import "./variables.css";
+
+input {
+    border: none;
+    border-bottom: 1px solid var(--input-border-color);
+    background-image: url(../assets/lens.svg);
+    background-repeat: no-repeat;
+    background-position-x: calc(100% - 0.4rem);
+    background-position-y: center;
+}
