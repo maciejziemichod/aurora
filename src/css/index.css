@@ -4,11 +4,18 @@
 /* variables */
 @import "./variables.css";
 
-input {
-    border: none;
-    border-bottom: 1px solid var(--input-border-color);
-    background-image: url(../assets/lens.svg);
-    background-repeat: no-repeat;
-    background-position-x: calc(100% - 0.4rem);
-    background-position-y: center;
+/* header start */
+@import "./header-top.css";
+@import "./logo.css";
+@import "./header-search.css";
+@import "./header-basket.css";
+@import "./header-nav.css";
+
+body {
+    color: var(--font-color);
 }
+
+.header {
+    display: flex;
+}
+/* header end */ ;

@@ -1,0 +1,11 @@
+.header__search-input {
+    width: 48rem;
+    font-size: 1.3rem;
+    padding: 0.8rem 0.7rem;
+    border: none;
+    border-bottom: 1px solid var(--input-border-color);
+    background-image: url(../assets/lens.svg);
+    background-repeat: no-repeat;
+    background-position-x: calc(100% - 0.4rem);
+    background-position-y: center;
+}

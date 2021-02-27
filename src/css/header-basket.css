@@ -1,0 +1,23 @@
+.header__basket {
+    height: fit-content;
+    position: relative;
+}
+
+.header__basket-counter {
+    position: absolute;
+    bottom: -0.9rem;
+    right: -1rem;
+    font-size: 1.1rem;
+    background-color: var(--primary-color);
+    border-radius: 50%;
+    width: 2.1rem;
+    height: 2.1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--light-font-color);
+}
+
+.header__basket-text {
+    display: none;
+}
