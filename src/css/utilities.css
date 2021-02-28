@@ -23,6 +23,16 @@
     display: none;
 }
 
+.fade-on-hover {
+    transition: color 0.15s ease;
+}
+.fade-on-hover:hover {
+    color: var(--hover-font-color);
+}
+.fade-on-hover.text--primary:hover {
+    color: var(--hover-primary-color);
+}
+
 @media (min-width: 1024px) {
     .hide-on-large {
         display: none;
