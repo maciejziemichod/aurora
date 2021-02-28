@@ -12,7 +12,10 @@
 
 .header__top-icon {
     margin-right: 1rem;
-    width: 1.3rem;
+}
+.header__top-icon--padlock {
+    padding-right: 0.15rem;
+    padding-left: 0.15rem;
 }
 
 @media (min-width: 1024px) {
