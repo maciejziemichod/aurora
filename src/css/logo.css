@@ -3,3 +3,15 @@
     grid-column-end: 6;
     height: 100%;
 }
+
+@media (min-width: 1024px) {
+    .logo {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        justify-self: left;
+        align-self: center;
+        height: unset;
+    }
+}

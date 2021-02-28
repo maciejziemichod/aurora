@@ -14,7 +14,64 @@
     </head>
     <body>
         <header class="header">
-            <div class="header__menu">
+            <nav class="header__nav show-on-large">
+                <ul class="header__nav-list">
+                    <li class="list-item">Kategorie</li>
+                    <li class="list-item">Nowości</li>
+                    <li class="list-item">Promocje</li>
+                    <li class="list-item text--primary">Wyprzedaże</li>
+                    <li class="list-item">Kolekcje sezony</li>
+                    <li class="list-item">Nasza oferta</li>
+                    <li class="list-item">Trendy 2018</li>
+                    <li class="list-item">Blog</li>
+                    <li class="list-item">Kontakt</li>
+                </ul>
+            </nav>
+
+            <div class="header__top show-on-large">
+                <div class="header__account">
+                    <a href="/login">
+                        <div class="header__account-login header__top-item">
+                            <img
+                                class="header__top-icon"
+                                src="./assets/padlock.svg"
+                            />
+                            <span>Zaloguj się</span>
+                        </div>
+                    </a>
+                    <a href="/register">
+                        <div class="header__account-create header__top-item">
+                            <img
+                                class="header__top-icon"
+                                src="./assets/person.svg"
+                            />
+                            <span>Załóż konto</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="header__contact">
+                    <a href="tel:+293939098">
+                        <div class="header__phone header__top-item">
+                            <img
+                                class="header__top-icon"
+                                src="./assets/phone.svg"
+                            />
+                            <span>293 939 098</span>
+                        </div>
+                    </a>
+                    <a href="mailto:kontakt@aurorabox.pl">
+                        <div class="header__mail header__top-item">
+                            <img
+                                class="header__top-icon"
+                                src="./assets/mail.svg"
+                            />
+                            <span>kontakt@aurorabox.pl</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="header__menu hide-on-large">
                 <button class="header__button header__menu-button--show">
                     <img
                         class="header__icon"
@@ -40,7 +97,6 @@
                         <ul>
                             <li class="list-item">Kategorie</li>
                             <li class="list-item">Nowości</li>
-                            <li class="list-item">Promocje</li>
                             <li class="list-item">Promocje</li>
                             <li class="list-item text--primary">Wyprzedaże</li>
                             <li class="list-item">Kolekcje sezony</li>
@@ -107,7 +163,9 @@
             </div>
 
             <section class="header__search" role="search">
-                <button class="header__button header__search-button--show">
+                <button
+                    class="header__button header__search-button--show hide-on-large"
+                >
                     <svg
                         width="21"
                         height="21"
@@ -131,7 +189,7 @@
                     </svg>
                 </button>
                 <div class="header__search-form-container">
-                    <div class="flex-end pb-2">
+                    <div class="flex-end pb-2 hide-on-large">
                         <button
                             class="header__button header__search-button--hide mr-n1"
                         >

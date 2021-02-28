@@ -31,3 +31,16 @@
         width: 50vw;
     }
 }
+
+@media (min-width: 1024px) {
+    .header__menu-content {
+        transition: none;
+        visibility: visible;
+        transform: translate3d(0, 0, 0);
+        position: unset;
+        top: unset;
+        left: unset;
+        height: auto;
+        width: auto;
+    }
+}
