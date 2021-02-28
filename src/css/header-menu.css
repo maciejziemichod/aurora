@@ -17,11 +17,17 @@
     width: 80vw;
     background-color: var(--background-color);
     border-right: 1px solid var(--border-color);
-    padding: 0.5rem 0 0.5rem 2.6rem;
+    padding: 1rem 0 0.5rem 2.6rem;
     display: flex;
     flex-direction: column;
 }
 .header__menu-content.visible {
     visibility: visible;
     transform: translate3d(0, 0, 0);
+}
+
+@media (min-width: 540px) {
+    .header__menu-content {
+        width: 50vw;
+    }
 }
