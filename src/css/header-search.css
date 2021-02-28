@@ -1,9 +1,29 @@
 .header__search {
-    display: none;
+    grid-column-start: 6;
+    grid-column-end: 7;
+}
+
+.header__search-form-container {
+    visibility: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 5rem 2.6rem;
+    background-color: var(--background-color);
+    opacity: 0;
+    z-index: 2;
+    transition: all 0.2s;
+}
+.header__search-form-container.visible {
+    visibility: visible;
+    opacity: 0.9;
 }
 
 .header__search-input {
-    width: 48rem;
+    /* width: 48rem; */
+    width: 100%;
     font-size: 1.3rem;
     padding: 0.8rem 0.7rem;
     border: none;

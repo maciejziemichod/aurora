@@ -5,3 +5,16 @@
 .list-item {
     padding-bottom: 1.4rem;
 }
+
+.flex-end {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.pb-2 {
+    padding-bottom: 2rem;
+}
+
+.mr-n1 {
+    margin-right: -1rem;
+}

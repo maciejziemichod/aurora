@@ -1,12 +1,15 @@
 .header__basket {
     height: fit-content;
     position: relative;
+    padding: 1rem;
+    grid-column-start: 7;
+    grid-column-end: 8;
 }
 
 .header__basket-counter {
     position: absolute;
-    bottom: -0.9rem;
-    right: -1rem;
+    bottom: 0.1rem;
+    right: 0;
     font-size: 1.1rem;
     background-color: var(--primary-color);
     border-radius: 50%;

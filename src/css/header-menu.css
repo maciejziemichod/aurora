@@ -1,12 +1,9 @@
 @import "./header-top.css";
 @import "./header-nav.css";
 
-.header__menu-button {
-    padding: 1rem;
-}
-.header__menu-icon {
-    width: 2.1rem;
-    height: 2.1rem;
+.header__menu {
+    grid-column-start: 1;
+    grid-column-end: 2;
 }
 
 .header__menu-content {
@@ -27,9 +24,4 @@
 .header__menu-content.visible {
     visibility: visible;
     transform: translate3d(0, 0, 0);
-}
-
-.header__menu-content-toolbar {
-    display: flex;
-    justify-content: flex-end;
 }
