@@ -1,3 +1,7 @@
+.header__search {
+    display: none;
+}
+
 .header__search-input {
     width: 48rem;
     font-size: 1.3rem;

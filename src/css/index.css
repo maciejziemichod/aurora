@@ -5,11 +5,10 @@
 @import "./variables.css";
 
 /* header start */
-@import "./header-top.css";
 @import "./logo.css";
 @import "./header-search.css";
 @import "./header-basket.css";
-@import "./header-nav.css";
+@import "./header-menu.css";
 
 body {
     color: var(--font-color);
@@ -17,5 +16,10 @@ body {
 
 .header {
     display: flex;
+    height: 6rem;
+    padding: 1rem 1.6rem;
+    align-items: center;
+    justify-content: space-between;
 }
+
 /* header end */ ;

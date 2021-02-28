@@ -9,49 +9,93 @@
     </head>
     <body>
         <header class="header">
-            <div class="header__top">
-                <div class="header__contact">
-                    <a href="tel:+293939098">
-                        <div class="header__phone">
-                            <img src="./assets/phone.svg" />
-                            <span>293 939 098</span>
-                        </div>
-                    </a>
-                    <a href="mailto:kontakt@aurorabox.pl">
-                        <div class="header__mail">
-                            <img src="./assets/mail.svg" />
-                            <span>kontakt@aurorabox.pl</span>
-                        </div>
-                    </a>
-                </div>
-                <div class="header__account">
-                    <a href="/login">
-                        <div class="header__account-login">
-                            <img src="./assets/padlock.svg" />
-                            <span>Zaloguj się</span>
-                        </div>
-                    </a>
-                    <a href="/register">
-                        <div class="header__account-create">
-                            <img src="./assets/person.svg" />
-                            <span>Załóż konto</span>
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <div class="logo">
-                <img src="./assets/logo.png" alt="Aurora box logo" />
-            </div>
-            <div class="header__basket">
-                <div>
+            <div class="header-menu">
+                <button class="header__menu-button header__menu-button--show">
                     <img
-                        src="./assets/basket.svg"
-                        class="header__basket-icon"
+                        class="header__menu-icon"
+                        src="./assets/menu.svg"
+                        alt="show menu button"
                     />
-                    <div class="header__basket-counter">2</div>
+                </button>
+
+                <div class="header__menu-content">
+                    <div class="header__menu-content-toolbar">
+                        <button
+                            class="header__menu-button header__menu-button--hide"
+                        >
+                            <img
+                                class="header__menu-icon"
+                                src="./assets/close.svg"
+                                alt="hide menu button"
+                            />
+                        </button>
+                    </div>
+                    <div class="header__top">
+                        <div class="header__contact">
+                            <a href="tel:+293939098">
+                                <div class="header__phone">
+                                    <img src="./assets/phone.svg" />
+                                    <span>293 939 098</span>
+                                </div>
+                            </a>
+                            <a href="mailto:kontakt@aurorabox.pl">
+                                <div class="header__mail">
+                                    <img src="./assets/mail.svg" />
+                                    <span>kontakt@aurorabox.pl</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="header__account">
+                            <a href="/login">
+                                <div class="header__account-login">
+                                    <img src="./assets/padlock.svg" />
+                                    <span>Zaloguj się</span>
+                                </div>
+                            </a>
+                            <a href="/register">
+                                <div class="header__account-create">
+                                    <img src="./assets/person.svg" />
+                                    <span>Załóż konto</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <nav class="header__nav">
+                        <ul>
+                            <li>Kategorie</li>
+                            <li>Nowości</li>
+                            <li>Promocje</li>
+                            <li>Promocje</li>
+                            <li>Wyprzedaże</li>
+                            <li>Kolekcje sezony</li>
+                            <li>Nasza oferta</li>
+                            <li>Trendy 2018</li>
+                            <li>Blog</li>
+                            <li>Kontakt</li>
+                        </ul>
+                    </nav>
                 </div>
+            </div>
+
+            <div class="logo">
+                <a href="/">
+                    <img src="./assets/logo.png" alt="Aurora box logo" />
+                </a>
+            </div>
+
+            <div class="header__basket">
+                <a href="/basket">
+                    <div>
+                        <img
+                            src="./assets/basket.svg"
+                            class="header__basket-icon"
+                        />
+                        <div class="header__basket-counter">2</div>
+                    </div>
+                </a>
                 <span class="header__basket-text">Twój koszyk</span>
             </div>
+
             <section class="header__search" role="search">
                 <form>
                     <input
@@ -63,20 +107,7 @@
                     />
                 </form>
             </section>
-            <nav class="header__nav">
-                <ul>
-                    <li>Kategorie</li>
-                    <li>Nowości</li>
-                    <li>Promocje</li>
-                    <li>Promocje</li>
-                    <li>Wyprzedaże</li>
-                    <li>Kolekcje sezony</li>
-                    <li>Nasza oferta</li>
-                    <li>Trendy 2018</li>
-                    <li>Blog</li>
-                    <li>Kontakt</li>
-                </ul>
-            </nav>
         </header>
+        <script src="./js/index.js"></script>
     </body>
 </html>
