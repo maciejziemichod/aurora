@@ -46,3 +46,26 @@
         padding-right: calc((100% - 540px) / 2);
     }
 }
+
+@media (min-width: 1024px) {
+    .header__search {
+        grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start: 3;
+        grid-row-end: 4;
+        padding-left: 8rem;
+    }
+
+    .header__search-form-container {
+        visibility: visible;
+        opacity: 1;
+        width: auto;
+        height: auto;
+        padding: 0;
+        position: initial;
+    }
+
+    .header__search-input {
+        width: 48rem;
+    }
+}
