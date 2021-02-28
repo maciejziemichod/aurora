@@ -1,0 +1,7 @@
+.text--primary {
+    color: var(--primary-color);
+}
+
+.list-item {
+    padding-bottom: 1.4rem;
+}

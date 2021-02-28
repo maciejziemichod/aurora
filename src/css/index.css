@@ -4,6 +4,9 @@
 /* variables */
 @import "./variables.css";
 
+/* utilities */
+@import "./utilities.css";
+
 /* header start */
 @import "./logo.css";
 @import "./header-search.css";
@@ -12,6 +15,7 @@
 
 body {
     color: var(--font-color);
+    font-family: "Lato", sans-serif;
 }
 
 .header {
